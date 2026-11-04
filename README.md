@@ -18,10 +18,10 @@ Welcome! This is the repository for the CSCU's game development sandbox. Here, n
 4. Type `git clone https://github.com/cscu-ok/Unity-Playground.git` and hit enter.
 5. Navigate to project folder `cd unity-playground.`
 
-#### 2. Unity Integration
+#### 2. Unity Integration 
+**Ensure you're using the correct Unity version of 6000.6.4f1**
 1. Open Unity Hub > Add > Add project from disk.
-2. Navigate to cloned project folder and select it.
-3. Ensure you're using the correct Unity version (6000.6.4f1).
+2. Navigate to cloned project folder and select it (make sure to select the cloned github folder, NOT the folder for holding the project).
 
 #### 3. Visual Studio Code Integration
 1. In Unity, go to Edit > Preferences > External Tools.
