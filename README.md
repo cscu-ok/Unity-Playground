@@ -13,9 +13,8 @@ Welcome! This is the repository for the CSCU's game development sandbox. Here, n
 
 #### 1. Cloning
 1. Create a local folder where you'd like to hold the project on your laptop (Ideally outside the reach of a cloud service).
-2. In VS Code, open the terminal (`Ctrl+Shift+U`/`Cmd+Shift+U`).
-3. Navigate to your folder on the terminal.
-4. Type `git clone https://github.com/cscu-ok/Unity-Playground.git` and hit enter.
+2. In VS Code, open the newly created folder, then the terminal (`Ctrl+Shift+U`/`Cmd+Shift+U`).
+4. In the terminal, type `git clone https://github.com/cscu-ok/Unity-Playground.git` and hit enter.
 5. Navigate to project folder `cd unity-playground.`
 
 #### 2. Unity Integration 
@@ -27,7 +26,6 @@ Welcome! This is the repository for the CSCU's game development sandbox. Here, n
 1. In Unity, go to Edit > Preferences > External Tools.
 2. Set "External Script Editor" to "Visual Studio Code."
 3. Click "Regenerate project files."
-4. Verify integration by double clicking on a C# (.cs) file in Unity - should open up VS Code editor.
 
 ## Version Control Basics
 Below are some steps of basic version control:
