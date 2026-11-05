@@ -54,7 +54,7 @@ Unity version control practice isn't too much different from traditional softwar
 working in the same scene will have merge conflicts on Unity metadata making resolution a huge headache. 
 
 To avoid this headache, we will be following the outline below when starting off on a new development task:
-1. Create branch and navigate to it.
+1. Create branch and navigate to it (sometimes more effective to use VS Code integration instead of terminal commands).
 2. Duplicate the scene you intend on changing.
 3. Rename the duplicated scene something memorable and start making your changes there.
 4. Once done, open a PR.
