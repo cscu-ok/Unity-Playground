@@ -30,11 +30,11 @@ public class Movement : MonoBehaviour
         currentVelocity = Vector3.MoveTowards(currentVelocity, targetVelocity, rate * Time.fixedDeltaTime);
         rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
     }
-    public void BounceUp(float force)
-    {
-        // Kill all horizontal momentum so the bounce is purely vertical
-        currentVelocity = Vector3.zero;
-        rb.linearVelocity = Vector3.zero;
-        rb.AddForce(Vector3.up * force, ForceMode.Impulse);
-    }
+    // public void BounceUp(float force)
+    // {
+    //     // Kill all horizontal momentum so the bounce is purely vertical
+    //     currentVelocity = Vector3.zero;
+    //     rb.linearVelocity = Vector3.zero;
+    //     rb.AddForce(Vector3.up * force, ForceMode.Impulse);
+    // }
 }
