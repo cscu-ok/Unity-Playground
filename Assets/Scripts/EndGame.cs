@@ -11,14 +11,14 @@ public class EndGame : MonoBehaviour
     // }
 
     [Header("Bounce")]
-    public float bounceForce = 15f;   // Tune this in the Inspector
-    void OnTriggerEnter(Collider other)
+    public float bounceForce = 20f;   // Tune this in the Inspector
+    void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player"))
         {
             Debug.Log("Player fell off the edge");
 
-            Movement movement = other.GetComponent<Movement>();
+            Movement movement = collision.collider.GetComponent<Movement>();
             if (movement != null)
             {
                 movement.BounceUp(bounceForce);
