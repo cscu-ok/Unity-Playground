@@ -4,11 +4,18 @@ public class EndGame : MonoBehaviour
 {
     [Header("UI")]
     public GameObject endGameText;
+    void Start()
+    {
+        if (endGameText != null)
+            endGameText.SetActive(false);
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            endGameText.SetActive(true);
+            if (endGameText != null)
+                endGameText.SetActive(true);
         }
     }
 
