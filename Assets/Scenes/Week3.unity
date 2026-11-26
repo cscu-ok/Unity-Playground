@@ -507,6 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd6d01eae62d2d49a8f5d202b1c1bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndGame
+  bounceForce: 20
 --- !u!1 &1649880439
 GameObject:
   m_ObjectHideFlags: 0
